@@ -1,0 +1,22 @@
+#wrapper{
+    margin-top: 70px;
+    width: 95%;
+    
+}
+/* ==========================Header section============================= */
+#header{
+    overflow: hidden;
+}
+#logo{
+    float: left;
+    font-size: 2.3rem;
+    margin-left: 9vw;
+}
+#navbar li{
+    float: right;
+    list-style: none;
+    padding: 0px 25px;
+}
+#navbar li a{
+    font-size: 18px;
+}
