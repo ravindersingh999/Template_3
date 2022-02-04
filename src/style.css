@@ -208,3 +208,12 @@
   float: right;
   margin-right: 7vh;
 }
+
+@media only screen and (max-width: 500px){
+  #left{
+    margin-left: 4vh;
+  }
+  #right{
+    margin-right: 1vh;
+  }
+}
