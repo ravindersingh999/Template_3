@@ -3,9 +3,7 @@
 } */
 
 #wrapper {
-  /* border: 2px solid; */
   margin-top: 70px;
-  /* width: 95%; */
 }
 #header {
   overflow: hidden;
@@ -21,28 +19,29 @@
   padding: 0px 25px;
 }
 #navbar li a {
-  /* text-decoration: none; */
   font-size: 18px;
 }
 
-/* =============================Main=================================== */
 
 #cont1 {
-  /* border: 2px solid; */
-  width: 95%;
   margin-left: 5vh;
   background-color: rgb(238, 238, 238);
   padding-bottom: 5vh;
   padding-top: 3vh;
 }
-#cont1 p {
-  font-size: 25px;
-  margin-left: 5vh;
+
+#cont1 .para{
+  font-size: 16px;
+  display: block;
+  width: 10%;
+  margin-left: 50px;
 }
-#cont1 pre {
-  font-size: 15px;
-  margin-left: -8vw;
+
+#cont1 .heading {
+  margin-left: 47px;
+    font-size: 30px;
 }
+
 #cont1 button {
   font-size: 16px;
   margin-left: 5vh;
@@ -79,26 +78,7 @@
   text-align: center;
   font-size: 18px;
 }
-#cont1 pre {
-  width: 70%;
-  margin-left: 10vh;
-}
 
-#cont2-2 {
-  width: 70%;
-  margin-left: 10vh;
-}
-#cont2-3 {
-  width: 70%;
-  margin-left: 10vh;
-}
-
-@media only screen and (max-width: 500px) {
-  #cont1 pre {
-    width: 55%;
-    margin-left: -15vw;
-  }
-}
 
 @media only screen and (max-width: 500px) {
   #cont2-1 {
@@ -123,32 +103,17 @@
   }
 }
 
-@media screen and (max-width: 660px) {
-  #cont1 pre {
-    margin-left: -10vw;
-  }
-}
-
 #cont2-1box {
   padding-bottom: 20vh;
-  /* width: 100%; */
   background-color: darkgray;
-  /* border: 2px solid; */
-  /* margin-left: 5vh; */
 }
 #cont2-2box {
   padding-bottom: 20vh;
-  /* width: 100%; */
   background-color: darkgray;
-  /* border: 2px solid; */
-  /* margin-left: 5vh; */
 }
 #cont2-3box {
   padding-bottom: 20vh;
-  /* width: 100%; */
   background-color: darkgray;
-  /* border: 2px solid; */
-  /* margin-left: 5vh; */
 }
 /* ========================cont 3====================== */
 
@@ -159,11 +124,12 @@
   align-items: center;
   padding-top: 10px;
   padding-bottom: 10px;
-  width: 90%;
+  width: 80%;
   margin-left: 13vh;
   background-color: rgb(238, 238, 238);
 }
 #cont3 p {
+  display: block;
   font-size: 40px;
   margin-right: 5vh;
 }
@@ -180,7 +146,7 @@
   float: right;
   margin-right: 10vh;
 }
-
+ 
 #footer {
   overflow: hidden;
 }
